@@ -2,7 +2,7 @@ import calendar
 
 def display_calendar(year, month):
     # Create a TextCalendar instance
-    cal = calendar.TextCalendar(calendar.SUNDAY)
+    cal = calendar.TextCalendar(calendar.Monday)
     
     # Get the calendar for the specified year and month
     month_calendar = cal.formatmonth(year, month)
